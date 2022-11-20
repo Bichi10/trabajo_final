@@ -1,0 +1,10 @@
+.contenedorImagen{
+    background-image: url(./fondo\ mundial6.jpg);
+   background-size: cover;
+    
+}
+
+.h1{
+   font-size: larger;
+   color: aqua;
+}
