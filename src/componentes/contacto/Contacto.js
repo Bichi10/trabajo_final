@@ -10,12 +10,10 @@ const onSubmit = (data) =>{
 }
 
   return (
-
 <>
-<h2> Formulario </h2>
-<div className="nombre"> Nombre: {watch ('nombre')}</div>
-<form onSubmit={handleSubmit(onSubmit)} >
-  <div>
+<h2 className="fondoh2"> Formulario </h2>
+<form className="formu" onSubmit={handleSubmit(onSubmit)} >
+  <div className="cajas">
     <label> Nombre </label>
     <input type="text" {...register('nombre', {
       required:true,
@@ -29,13 +27,13 @@ const onSubmit = (data) =>{
     
 
   </div>
-  <div>
+  <div className="cajas">
     <label> Apellido </label>
     <input type="text" {...register('apellido',{ required:true
     
     })} />
   </div>
-  <div>
+  <div className="cajas">
     <label> Email </label>
     <input type="text" {...register('email', {
       pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
@@ -45,9 +43,14 @@ const onSubmit = (data) =>{
 {errors.email?.type === 'pattern' && <p> El formato es incorrecto </p>
     }
   </div>
+
+  <div className="cajatexto">
+    <label className="descrip"> Escribile un mensaje para la seleccion </label>
+    <textarea classname="cajatexto" id="content" name="content" cols="60" rows="10"/>
+  </div>
   <div>
-    <label> Quien va a ser el campeon del mundo </label>
-    <select {...register('sabor')}>
+    <label className="label"> Quien va a ser el campeon del mundo </label>
+    <select className="combo" {...register('sabor')}>
       <option value="arg"> Argentina </option>
       <option value="bra"> Brasil </option>
       <option value="fra"> Francia </option>
@@ -83,11 +86,7 @@ const onSubmit = (data) =>{
     </select>
   </div>
   <input type="submit" value="Enviar" />
-  
 </form>
-
-
-
 </>
 
 

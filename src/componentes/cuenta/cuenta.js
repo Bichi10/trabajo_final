@@ -1,7 +1,7 @@
 /*import React, {useEffect, useRef, useState} from "react";
 import { ReactDOM } from "react";
 
-function ctare ()  {
+const ctare = ({cuentaregre}) => {
 const [timerDays,setTimerDays ] = useState(30);
 const [timerHours,setTimerHours ] = useState(20);
 const [timerMinutes,setTimerMinutes ] = useState(40);

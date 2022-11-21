@@ -8,7 +8,7 @@ const Home = () => {
 
     return(
         <header>
-        <Intro titulo="Historia de todos los mundiales" />
+        <Intro titulo="Mundiales" />
         </header>
     );
 }

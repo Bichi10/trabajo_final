@@ -15,7 +15,7 @@ export default function Navbar() {
       </a>
       <button
         className="hamburger"
-        onClick={() => {
+        onClick ={() => {
           setIsNavExpanded(!isNavExpanded)
         }}
       >
@@ -28,10 +28,10 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a href="./home">Home</a>
           </li>
           <li>
-            <a href="./Ejemplo">Ejemplo</a>
+            <a href="./grupo">grupos</a>
           </li>
           <li>
             <a href="./Contacto">Contacto</a>

@@ -1,12 +1,56 @@
 *{
 font-size: 20px;
-background-image: "../src/componentes/fondo mundial4.jpg";
 }
-.form{
-    background-image: "../src/componentes/fondo mundial4.jpg";
+.formu{
+    background-image: url(../intro/fondo\ mundial4.jpg);
+    
+    
+ }
+
+ .fondoh2{
+    background-color: skyblue;
+    color:white;
+ }
+
+.label{
+    font-size: 60px;
+    color: white;
+
 }
 
-.nombre{
-background-image: "../src/componentes/fondo mundial4.jpg";
+.combo{
+    width: 200px;
+    height: 50px;
+}
 
+.cajas{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin: 20px 15px;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    color: aqua;
+    
+}
+
+.cajatexto{
+    display: flex;
+    border: solid 1px;
+    padding-top: 10px;
+    margin: 20px 15px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    color: aqua;  
+}
+
+.descrip{
+    display: flex;
+    color: rgb(207, 231, 231); 
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
 }

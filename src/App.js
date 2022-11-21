@@ -8,7 +8,7 @@ import Contacto from "./componentes/contacto/Contacto";
 import Footer from './componentes/footer/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch, Routes } from "react-router-dom";
-import Ejemplo from './componentes/ejemplo/ejemplo';
+import grupos from './componentes/grupos/grupo';
 import  Nav  from 'react-bootstrap';
 
 
@@ -24,8 +24,8 @@ function App () {
         <Route exact path="/contacto">     
           <Contacto />
           </Route>
-          <Route exact path="/ejemplo">
-            <Ejemplo />
+          <Route exact path="/grupos">
+            <grupo />
             </Route>  
                 </Switch>
       
