@@ -50,7 +50,7 @@ const onSubmit = (data) =>{
   </div>
   <div>
     <label className="label"> Quien va a ser el campeon del mundo </label>
-    <select className="combo" {...register('sabor')}>
+    <select className="combo" {...register('selecciones')}>
       <option value="arg"> Argentina </option>
       <option value="bra"> Brasil </option>
       <option value="fra"> Francia </option>

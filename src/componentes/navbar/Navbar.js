@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../navbar/navbar.css';
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -28,13 +29,13 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="./home">Home</a>
+            <NavLink to="/home"> Home</NavLink> 
           </li>
           <li>
-            <a href="./grupo">grupos</a>
+          <NavLink to="/grupo"> Grupo</NavLink>
           </li>
           <li>
-            <a href="./Contacto">Contacto</a>
+          <NavLink to="/Contacto"> Contacto</NavLink> 
           </li>
         </ul>
       </div>
