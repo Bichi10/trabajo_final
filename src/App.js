@@ -9,7 +9,6 @@ import Footer from './componentes/footer/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch, Routes } from "react-router-dom";
 import Nav from 'react-bootstrap';
-import Grupos from "./componentes/grupos/Grupo";
 
 
 function App() {
@@ -22,10 +21,7 @@ function App() {
             
         
           <Route  path="/contacto" element={<Contacto />}/>
-            
-          
-          <Route path="/grupos" element={<Grupos />}/>
-          </Routes>
+        </Routes>
 
       </BrowserRouter>
       <Footer />
