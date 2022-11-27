@@ -1,6 +1,9 @@
 .navigation {
-  background-color: skyblue;
-  color:white;
+  background-color: #550065;
+  --textColor: #FFFFFF;
+  --primaryColor: #00b8ff;
+  --secondaryColor: #ffffff;
+  --tertiaryColor: #ffffff;
     height: 60px;
     width: 100%;
     display: flex;
@@ -17,8 +20,11 @@
   }
   .navigation-menu {
     margin-left: auto;
-    background-color: skyblue;
-    color:white;
+    background-Color: #550065;
+    --textColor: #FFFFFF;
+    --primaryColor: #00b8ff;
+    --secondaryColor: #ffffff;
+    --tertiaryColor: #ffffff;
   }
   .navigation-menu ul {
     display: flex;

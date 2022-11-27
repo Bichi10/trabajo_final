@@ -1,6 +1,6 @@
 .imagen{
-height: 300px;
-border-radius: 15px;
+height: auto;
+width: auto;
+border-radius: 20px;
 box-shadow: 15px;
 }
-

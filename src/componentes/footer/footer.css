@@ -1,14 +1,4 @@
 .field1 {
     background-image: url(./footermundial1.jpg);
-    background-size: contain;
-    max-width: 100%;
-    }
-
-    
-.cuentaregresiva{
-    display: flex;
-    justify-content: center;
-}
-
-
+ }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Intro from "../intro/intro";
 import "./home.css";
-import Bootstrapcarousel from "../carousel/bootstrapcarousel";
+import Bootstrapcarousel from "../carousel/Bootstrapcarousel";
 
 
 const Home = () => {

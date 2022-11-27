@@ -1,5 +1,6 @@
 import { Carousel } from 'react-bootstrap';
 import React from 'react';
+import "../carousel/bootstrapcarousel.css";
 
 export default function Bootstrapcarousel() {
   return (
@@ -9,7 +10,7 @@ export default function Bootstrapcarousel() {
           className="imagen"
           src="https://images.mediotiempo.com/CgxVHsZjeOaZjDKOfZm-v7vi0Kk=/0x530/uploads/media/2019/09/03/uruguay-144.jpg"
           alt="Uruguay 30"
-          href='https://www.marca.com/reportajes/2010/01/historia_de_los_mundiales/index.html'
+          navlink to="https://www.marca.com/reportajes/2010/01/historia_de_los_mundiales/index.html" 
         />
       </Carousel.Item>
       <Carousel.Item>

@@ -2,19 +2,19 @@
 font-size: 20px;
 }
 .formu{
-    background-image: url(../intro/fondo\ mundial4.jpg);
-    
+    background-color: #eeeee4;
+    color: #550065;
     
  }
 
  .fondoh2{
-    background-color: skyblue;
-    color:white;
+    background-color: #eeeee4;
+    color: #550065;
  }
 
 .label{
     font-size: 60px;
-    color: white;
+    color: #550065;
 
 }
 
@@ -32,7 +32,7 @@ font-size: 20px;
     padding: 1rem;
     text-align: center;
     justify-content: center;
-    color: aqua;
+    color: #550065;
     
 }
 
@@ -44,12 +44,12 @@ font-size: 20px;
     border-radius: 5px;
     text-align: center;
     justify-content: center;
-    color: aqua;  
+    color: #550065;
 }
 
 .descrip{
     display: flex;
-    color: rgb(207, 231, 231); 
+    color: #550065;
     text-align: center;
     align-items: center;
     font-size: 40px;

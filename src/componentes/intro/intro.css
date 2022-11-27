@@ -1,10 +1,11 @@
 .contenedorImagen{
-    background-image: url(./fondo\ mundial6.jpg);
-   background-size: cover;
+   background-color: #eeeee4;
+   width: auto;
+   height: 80%;
     
 }
 
 .h1{
    font-size: larger;
-   color: aqua;
+   color: #EB6440#497174#D6E4E5;
 }

@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../navbar/navbar.css';
 import { NavLink } from "react-router-dom";
+import Argentina from "../equipos/Argentina";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -29,10 +30,10 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <NavLink to="/home"> Home</NavLink> 
+            <NavLink to="/#"> Home</NavLink> 
           </li>
           <li>
-          <NavLink to="/grupo"> Grupo</NavLink>
+            <NavLink to="/Argentina"> Argentina</NavLink> 
           </li>
           <li>
           <NavLink to="/Contacto"> Contacto</NavLink> 
