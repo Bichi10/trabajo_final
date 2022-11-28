@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import Bootstrapcarousel from '../carousel/Bootstrapcarousel';
+import Bootstrapcarousel from '../carousel/bootstrapcarousel';
 
 const Intro = ({ titulo }) => {
     return(
@@ -8,7 +8,6 @@ const Intro = ({ titulo }) => {
     <div className="contenedorImagen">
             <h1 className='h1'> {titulo} </h1>
     <Bootstrapcarousel />
-
     </div>
 )
 }
