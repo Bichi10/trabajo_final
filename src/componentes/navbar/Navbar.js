@@ -24,7 +24,7 @@ export default function Navbar() {
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
-        <ul >
+        <ul className="position">
           <li>
             <NavLink to="/#"> Home</NavLink> 
           </li>

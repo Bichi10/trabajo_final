@@ -25,6 +25,8 @@
     padding: 0;
     background-color: #550065;
     Color: #FFFFFF;
+    position: absolute;
+    z-index:1;
   }
 
   .navigation-menu li {
@@ -71,7 +73,7 @@
     }
     .navigation-menu expanded{
       align-items: center;
-
+     
     
   }
 }
@@ -109,3 +111,8 @@
     }
 
   }    
+
+  .position{
+    position: absolute;
+    right: 10px;
+  }
