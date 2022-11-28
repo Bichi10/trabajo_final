@@ -28,6 +28,7 @@ export default function Bootstrapcarousel() {
           src="https://images.mediotiempo.com/7WAYveGaoykkk047ytPNrpuctUk=/0x530/uploads/media/2019/09/03/francia-79.jpg"
           alt="Francia 38"
         />
+        
       </a>
       </Carousel.Item>
       <Carousel.Item>
