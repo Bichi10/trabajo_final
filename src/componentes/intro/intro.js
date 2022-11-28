@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import Bootstrapcarousel from '../carousel/Bootstrapcarousel';
+import Bootstrapcarousel from "../carousel/Bootstrapcarousel";
 
 const Intro = ({ titulo }) => {
     return(
@@ -14,9 +14,3 @@ const Intro = ({ titulo }) => {
 }
 
 export default Intro;
-
-/*
-    <img src={icon} className="icon" alt="Foto perfil "/>
-    <CustomButton color="red" texto="Botón intro" ></CustomButton>
-    <CustomButton color="blue" texto="Botón intro" ></CustomButton>
-*/
