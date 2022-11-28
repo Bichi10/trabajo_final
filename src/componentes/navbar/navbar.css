@@ -1,8 +1,6 @@
 .navigation {
   background-color: #550065;
   Color: #FFFFFF;
-    height: 60px;
-    width: 100%;
     display: flex;
     align-items: center;
     position: relative;
@@ -89,10 +87,6 @@
       /* stacks the li tags vertically*/ 
       flex-direction: column;
      /* makes menu span full height and width*/
-      width: 100%;
-      height: calc(100vh - 77px);
-      background-color: skyblue;
-      color:blue;
       border-top: 1px solid black;
       
     }
