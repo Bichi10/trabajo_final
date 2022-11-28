@@ -5,7 +5,6 @@
 .imagen_contenedor{
 background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzEyIiBoZWlnaHQ9IjQ4MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMSAyOS4wNDhjMC03LjM0NCA1LjI3NC0xMy41NCAxMi41MjQtMTQuNjNDNDEuNjEgMTAuMTk1IDEwNy44NjMgMS4wMzQgMTU0LjE0MyAxYzQ3LjU0OC0uMDM1IDExNS42ODMgOS4yMjMgMTQ0LjI4NyAxMy40NDhDMzA1LjcgMTUuNTIgMzExIDIxLjcyNiAzMTEgMjkuMDg2VjQzNi41MmExNC45OSAxNC45OSAwIDAxLTExLjgxMSAxNC42NDhsLTE0MS42MTUgMzAuODA5LTE0NC43MDItMzAuODUxQTE0Ljk4NiAxNC45ODYgMCAwMTEgNDM2LjQ2OFYyOS4wNDh6IiBmaWxsPSIjZmZmIiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiIHN0cm9rZT0idXJsKCNwYWludDBfbGluZWFyXzE3NzFfMTQyMjIzKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzE3NzFfMTQyMjIzIiB4MT0iLTguOTY2IiB5MT0iMjQxLjYyMSIgeDI9IjMyMS4wNCIgeTI9IjI0MS42MjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjREFDOTZEIi8+PHN0b3Agb2Zmc2V0PSIuMjEiIHN0b3AtY29sb3I9IiNENkM1NkMiLz48c3RvcCBvZmZzZXQ9Ii4zOCIgc3RvcC1jb2xvcj0iI0NEQkI2QiIvPjxzdG9wIG9mZnNldD0iLjUiIHN0b3AtY29sb3I9IiNDMUFGNkEiLz48c3RvcCBvZmZzZXQ9Ii42MiIgc3RvcC1jb2xvcj0iI0NEQkI2QiIvPjxzdG9wIG9mZnNldD0iLjc5IiBzdG9wLWNvbG9yPSIjRDZDNTZDIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjREFDOTZEIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+) no-repeat;
 background-size: contain;
-position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -45,27 +44,26 @@ width: 90%;
     font-weight: 500;
     line-height: 1;
 }
-/*
+
 .ff-bg-sand {
     background-color: #eeeee4!important;
 }
 .ff-mt-24 {
     margin-top: 1.5rem!important;
 }
-*/
 
-/*
+
+
 @media (min-width: 768px){
 .puesto_contenedor {
+    display: flex;
     max-width: calc(100% - 5rem);
-}*/
-
+}
+}
 
 .puesto_contenedor {
-    margin: 0.5rem auto auto 3.5rem;
-    padding-right: 0;
-    padding-left: 0;
-    width: 100%;
+    display: flex;
+    margin: 0.5rem auto auto 1rem;
     max-width: calc(100% - 2.5rem);
 }
 
@@ -79,6 +77,8 @@ width: 90%;
 }
 .puestos{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: row;
 }
 

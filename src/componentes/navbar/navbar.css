@@ -1,9 +1,6 @@
 .navigation {
   background-color: #550065;
-  --textColor: #FFFFFF;
-  --primaryColor: #00b8ff;
-  --secondaryColor: #ffffff;
-  --tertiaryColor: #ffffff;
+  Color: #FFFFFF;
     height: 60px;
     width: 100%;
     display: flex;
@@ -12,35 +9,39 @@
     padding: 0.5rem 0rem;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   }
+  
   .brand-name {
     text-decoration: none;
-    color:whitesmoke;
+    Color: #FFFFFF;
     font-size: 1.3rem;
     margin-left: 1rem;
   }
   .navigation-menu {
     margin-left: auto;
+    margin-right: 220px;
     background-Color: #550065;
-    --textColor: #FFFFFF;
-    --primaryColor: #00b8ff;
-    --secondaryColor: #ffffff;
-    --tertiaryColor: #ffffff;
-  }
+    Color: #FFFFFF;
+    }
   .navigation-menu ul {
     display: flex;
     padding: 0;
+    background-color: #550065;
+    Color: #FFFFFF;
   }
 
   .navigation-menu li {
     /* removes default disc bullet for li tags and applies margin to left & right side*/
     list-style-type: none;
     margin: 0 1rem;
+    background-color: #550065;
+    Color: #FFFFFF;
   }
   .navigation-menu li a {
     /* increases the surface area of the anchor tag to span more than just the anchor text*/
     text-decoration: none;
-    display: block;
-    width: 100%;
+    display: flex;
+    background-color: #550065;
+    Color: #FFFFFF;
   }
   .hamburger {
     /* removes default border on button element*/
@@ -49,7 +50,6 @@
     width: 40px;
     padding: 0.5rem;
     border-radius: 50%;
-    background-color: skyblue;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
   /* positions the icon to the right and center aligns it vertically*/
@@ -58,23 +58,33 @@
     right: 25px;
     transform: translateY(-50%);
     display:none;
+    background-color: #550065;
+    Color: #FFFFFF;
   }
   .hamburger:hover {
-    background-color: yellow;
+    background-color:#FFFFFF;
   }
 
   @media screen and (max-width: 768px) {
     /* rules go here*/
     .hamburger {
-        display:block;
-      }
+      display: flex;
+      flex-direction: column;
+    }
+    .navigation-menu expanded{
+      align-items: center;
+
+    
   }
+}
 
 
   @media screen and (max-width: 768px) {
     .navigation-menu ul {
       /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar)*/
-      position:fixed;
+      position:absolute;
+      display: flex;
+      flex-wrap: wrap;
       top: 60px;
       /* stacks the li tags vertically*/ 
       flex-direction: column;
@@ -84,6 +94,7 @@
       background-color: skyblue;
       color:blue;
       border-top: 1px solid black;
+      
     }
     .navigation-menu li {
       /* centers link text and strips off margin*/
@@ -91,16 +102,16 @@
       margin: 0;
     }
     .navigation-menu li a {
-      color: black;
+      Color: #FFFFFF;
       /* increases the surface area of the anchor tag to span the full width of the menu*/
       width: 100%;
-      padding: 1.5rem 0;
     }
     .navigation-menu li:hover {
       background-color: #eee;
     }
     .hamburger {
       display:block;
+
     }
 
   }    

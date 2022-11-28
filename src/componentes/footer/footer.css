@@ -1,4 +1,33 @@
-.field1 {
-    background-image: url(./footermundial1.jpg);
- }
+.contenedor_footer{
+    background-color: #550065;
+    Color: #FFFFFF;
+}
 
+.titulo_footer{
+    Color: #FFFFFF;
+    
+}
+
+/*.alineacion_footer{
+    display: flex 
+    justify-content-between;
+
+}*/
+
+.copyrigth{
+    justify-items: center;
+    align-items: center;
+}
+
+/*.iconos_footer{
+display: flex;
+margin-right: 24px;
+width: 24px;
+height: 24px; 
+fill:white; 
+stroke: none; 
+stroke-width: 2px; 
+stroke-linecap: round; 
+stroke-linejoin: round; 
+
+}*/
