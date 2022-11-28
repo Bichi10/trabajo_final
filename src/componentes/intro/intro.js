@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import icon from './icon.png';
 import CustomButton from '../Button/customButton';
-import Bootstrapcarousel from '../carousel/Bootstrapcarousel';
+import Bootstrapcarousel from '../carousel/bootstrapcarousel';
 const Intro = ({ titulo }) => {
     return(
         

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import "./App.css";
-import Bootstrapcarousel from "./componentes/carousel/Bootstrapcarousel";
+import bootstrapcarousel from "./componentes/carousel/bootstrapcarousel";
 import Navbar from './componentes/navbar/Navbar';
 import Home from "./componentes/home/home";
 import Menu from './componentes/navbar/Navbar';
