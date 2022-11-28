@@ -1,14 +1,12 @@
 import React from 'react';
 import './intro.css';
-import icon from './icon.png';
-import CustomButton from '../Button/customButton';
-import Bootstrapcarousel from '../carousel/bootstrapcarousel';
+import Bootstrapcarousel from "../carousel/bootstrapcarousel";
 const Intro = ({ titulo }) => {
     return(
         
-    <div className='contenedorImagen'>
+    <div className="contenedorImagen">
             <h1 className='h1'> {titulo} </h1>
-    <Bootstrapcarousel className="contenederoImagen"/>
+    <Bootstrapcarousel className="contenedorImagen"/>
 
     </div>
 )
