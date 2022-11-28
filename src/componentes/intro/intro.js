@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import Bootstrapcarousel from "../carousel/bootstrapcarousel";
+import Bootstrapcarousel from "../carousel/Bootstrapcarousel";
 const Intro = ({ titulo }) => {
     return(
         
